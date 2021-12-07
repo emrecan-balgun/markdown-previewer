@@ -77,7 +77,7 @@
     @media screen and (min-width: $medium-screen) {
         &__box {
             font-size: $medium-font-size;
-            height: 580px;
+            height: 510px;
             width: 345px;
 
             &::-webkit-scrollbar {
@@ -94,7 +94,7 @@
     @media screen and (min-width: $large-screen) {
         &__box {
             font-size: $mediumer-font-size;
-            height: 580px;
+            height: 510px;
             width: 450px;
         }
     }
@@ -102,7 +102,7 @@
     @media screen and (min-width: $extra-large-screen) {
         &__box {
             font-size: $mediumer-font-size;
-            height: 580px;
+            height: 510px;
             width: 590px;
         }
     }
