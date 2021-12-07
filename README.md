@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [React Markdown](https://www.npmjs.com/package/react-markdown) and [React Syntax Highlighter](https://www.npmjs.com/package/react-syntax-highlighter).
+
+## Photo
+![v2](public/main.jpg)
 
 ## Available Scripts
 
