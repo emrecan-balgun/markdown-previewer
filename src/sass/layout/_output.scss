@@ -10,33 +10,38 @@
         font-size: $mediumer-font-size;
         padding: 10px;
         height: 500px;
-        width: 400px;
+        width: 600px;
         box-shadow: $shadow;
         border: none;
         resize: none;
+        overflow-y: auto;
 
         &:focus {
             outline: none;
         }
 
-        p {
-            overflow-wrap: break-word;
+        * {
+            margin-top: -5px;
+            word-break: break-word;
         }
-    }
 
-    // &__box {
-    //     background-color: $third-color;
-    //     font-size: $mediumer-font-size;
-    //     padding: 10px;
-    //     height: 500px;
-    //     width: 400px;
-    //     box-shadow: $shadow;
-    //     border: none;
-    //     resize: none;
-        
-    //     p {
-    //         margin-top: -5px;
-    //         overflow-wrap: break-word;
-    //     }
-    // }
+        // * {
+        //     // // overflow-wrap: break-word;
+        //     // font-size: calc(0.6vw + 0.6em);
+        //     direction: ltr;
+        //     width: 35vw;
+        //     margin:auto;
+        //     // text-align:justify;
+        //     word-break: break-word;
+        //     white-space: pre-line;
+        //     overflow-wrap: break-word;
+        //     -ms-word-break: break-word;
+        //     word-break: break-word;
+        //     -ms-hyphens: auto;
+        //     -moz-hyphens: auto;
+        //     -webkit-hyphens: auto;
+        //     hyphens: auto;
+        // }
+
+    }
 }
