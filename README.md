@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [React Markdown](https://www.npmjs.com/package/react-markdown) and [React Syntax Highlighter](https://www.npmjs.com/package/react-syntax-highlighter).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using the [React Markdown](https://www.npmjs.com/package/react-markdown), [React Syntax Highlighter](https://www.npmjs.com/package/react-syntax-highlighter), [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Photo
 ![v2](public/main.jpg)
