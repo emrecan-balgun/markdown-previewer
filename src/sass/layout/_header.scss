@@ -1,0 +1,28 @@
+@import '../Helpers/variables';
+@import '../Helpers/mixins';
+
+.header {
+    @include flexbox();
+    
+    &__title {
+        text-transform: capitalize;
+        font-size: $mega-font-size;
+    }
+
+    &__icon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        padding: 0px 20px 0px 20px;
+        font-size: $mega-font-size;
+        font-weight: $font-bold;
+        background-color: $third-color;
+        border-radius: $radius;
+        box-shadow: $shadow;
+        transition: box-shadow 1s;
+
+        &:hover {
+            box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+        }
+    }
+}

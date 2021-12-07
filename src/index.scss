@@ -1,0 +1,10 @@
+@import '../src/sass/base/typography';
+@import '../src/sass/Helpers/variables';
+@import '../src/sass//Helpers/mixins';
+
+html, body {
+  @include flexbox();
+  background-color: $first-color;
+  font-family: 'Poppins', sans-serif;
+  color: $second-color;
+}

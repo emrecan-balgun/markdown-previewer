@@ -1,0 +1,42 @@
+@import '../Helpers/variables';
+@import '../Helpers/mixins';
+
+.output {
+    @include flexbox();
+    gap: 30px;
+
+    &__box{
+        background-color: $third-color;
+        font-size: $mediumer-font-size;
+        padding: 10px;
+        height: 500px;
+        width: 400px;
+        box-shadow: $shadow;
+        border: none;
+        resize: none;
+
+        &:focus {
+            outline: none;
+        }
+
+        p {
+            overflow-wrap: break-word;
+        }
+    }
+
+    // &__box {
+    //     background-color: $third-color;
+    //     font-size: $mediumer-font-size;
+    //     padding: 10px;
+    //     height: 500px;
+    //     width: 400px;
+    //     box-shadow: $shadow;
+    //     border: none;
+    //     resize: none;
+        
+    //     p {
+    //         margin-top: -5px;
+    //         overflow-wrap: break-word;
+    //     }
+    // }
+}
