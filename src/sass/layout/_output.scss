@@ -38,24 +38,72 @@
             margin-top: -5px;
             word-break: break-word;
         }
+    }
 
-        // * {
-        //     // // overflow-wrap: break-word;
-        //     // font-size: calc(0.6vw + 0.6em);
-        //     direction: ltr;
-        //     width: 35vw;
-        //     margin:auto;
-        //     // text-align:justify;
-        //     word-break: break-word;
-        //     white-space: pre-line;
-        //     overflow-wrap: break-word;
-        //     -ms-word-break: break-word;
-        //     word-break: break-word;
-        //     -ms-hyphens: auto;
-        //     -moz-hyphens: auto;
-        //     -webkit-hyphens: auto;
-        //     hyphens: auto;
-        // }
+    @media screen and (max-width: $small-screen) {
+        &__box {
+            font-size: $small-font-size;
+            height: 210px;
+            width: 300px;
 
+            &::-webkit-scrollbar {
+                width: 4px;
+            }
+        }
+
+        & {
+            @include flexbox($direction: column);
+            gap: 15px;
+        } 
+    }
+
+    @media screen and (min-width: $small-screen) {
+        &__box {
+            font-size: $normal-font-size;
+            height: 280px;
+            width: 500px;
+
+            &::-webkit-scrollbar {
+                width: 4px;
+            }
+        }
+
+        & {
+            @include flexbox($direction: column);
+            gap: 15px;
+        } 
+    }
+
+    @media screen and (min-width: $medium-screen) {
+        &__box {
+            font-size: $medium-font-size;
+            height: 580px;
+            width: 345px;
+
+            &::-webkit-scrollbar {
+                width: 4px;
+            }
+        }
+
+        & {
+            @include flexbox();
+            gap: 20px;
+        }
+    }
+
+    @media screen and (min-width: $large-screen) {
+        &__box {
+            font-size: $mediumer-font-size;
+            height: 580px;
+            width: 450px;
+        }
+    }
+
+    @media screen and (min-width: $extra-large-screen) {
+        &__box {
+            font-size: $mediumer-font-size;
+            height: 580px;
+            width: 590px;
+        }
     }
 }

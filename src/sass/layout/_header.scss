@@ -26,4 +26,62 @@
             box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
         }
     }
+
+    @media screen and (max-width: $small-screen) {
+        &__title {
+            font-size: $medium-font-size;
+        }
+
+        &__icon {
+            font-size: $small-font-size;
+            top: 20px;
+            right: 10px;
+            box-shadow: none;
+            padding: 5px;
+
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+
+    @media screen and (min-width: $small-screen) {
+        &__title {
+            font-size: $big-font-size;
+        }
+
+        &__icon {
+            font-size: $mediumer-font-size;
+        }
+    }
+
+    @media screen and (min-width: $medium-screen) {
+        &__title {
+            font-size: $bigger-font-size;
+        }
+
+        &__icon {
+            font-size: $big-font-size;
+        }
+    }
+
+    @media screen and (min-width: $large-screen) {
+        &__title {
+            font-size: $mega-font-size;
+        }
+
+        &__icon {
+            font-size: $bigger-font-size;
+        }
+    }
+
+    @media screen and (min-width: $extra-large-screen) {
+        &__title {
+            font-size: $mega-font-size;
+        }
+
+        &__icon {
+            font-size: $mega-font-size;
+        }
+    }
 }
